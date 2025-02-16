@@ -7,7 +7,7 @@ from io import BytesIO
 def get_cat_pic():
     url = "https://api.thecatapi.com/v1/images/search"  # API endpoint
     headers = {
-        "x-api-key": "live_NrHuf5kWmlszb5WSENGhWIJVVNnBYPVCqKO096vaYtx0jKWDL4mxuvLOueR0XREW"  # Replace with your API key
+        "x-api-key": "YOUR_OWN_API_KEY"  # Replace with your API key
     }
     response = requests.get(url, headers=headers)
     
